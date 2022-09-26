@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+.card{
+    box-shadow: 5px 5px 15px rgb(109, 18, 109);
+    padding: 20px;
+    transition: .5s;
+}
+.card:hover{
+    box-shadow: 5px 5px 15px violet;
+    transform: scale(1.05);
+}
+.card img{
+    width: 100%;
+}
